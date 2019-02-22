@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/graphql-go/graphql"
+	"github.com/estrados/graphql"
 )
 
 type User struct {
@@ -42,7 +42,7 @@ func main() {
 						rootValue := p.Info.RootValue.(map[string]interface{})
 						rootValue["data-from-parent"] = "ok"
 						result := []User{
-							User{ID: 1},
+							{ID: 1},
 						}
 						return result, nil
 

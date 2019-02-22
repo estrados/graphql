@@ -2,7 +2,8 @@ package gqlerrors
 
 import (
 	"errors"
-	"github.com/graphql-go/graphql/language/ast"
+
+	"github.com/estrados/graphql/language/ast"
 )
 
 // NewLocatedError creates a graphql.Error with location info

@@ -1,1 +1,1 @@
-module github.com/graphql-go/graphql
+module github.com/estrados/graphql

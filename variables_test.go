@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/language/ast"
-	"github.com/graphql-go/graphql/language/location"
-	"github.com/graphql-go/graphql/testutil"
+	"github.com/estrados/graphql"
+	"github.com/estrados/graphql/gqlerrors"
+	"github.com/estrados/graphql/language/ast"
+	"github.com/estrados/graphql/language/location"
+	"github.com/estrados/graphql/testutil"
 )
 
 var testComplexScalar *graphql.Scalar = graphql.NewScalar(graphql.ScalarConfig{
