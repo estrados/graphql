@@ -286,7 +286,7 @@ func typeMapReducer(schema *Schema, typeMap TypeMap, objectType Type) (TypeMap, 
 		err = invariantf(
 			mappedObjectType == objectType,
 			`Schema must contain unique named types but contains multiple types named "%v".`, objectType.Name())
-		return typeMap, err
+		return typeMap, nil
 	}
 	typeMap[objectType.Name()] = objectType
 
